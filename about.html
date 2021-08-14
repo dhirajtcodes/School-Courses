@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./scss/mystyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#"><img src="images/logo.png" alt="logo"></a>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Course</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <button id="moreMenu"><i class="fas fa-bars"></i></button>
+                    </ul>
+                </div>
+            </nav>
+            <h1>About Us</h1>
+        </header>    
+        <section>
+        <div class="about-section">
+            <div class="about1">
+                <h2>We are world largest university</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit. Cumque in ducimus facere 
+                    ipsam culpa tempora? Assumenda recusandae 
+                    voluptatum ullam aut, quod repellat non 
+                    provident nobis! Hic aspernatur tempora 
+                    cum maxime.</p>
+                    <button>Explore more</button>
+            </div>
+            <div class="image">
+                <img src="./images/about.jpg" alt="about us" style="max-width: 100%;">
+            </div>
+        </div>
+        </section>
+        <hr>
+        <section>
+            <div class="about2">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ex amet.</p>
+            </div>
+        </section>
+        <section class="social-media">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-youtube"></i>
+    
+        </section>
+        
+        <script src="" async defer></script>
+        <script>
+            let hamburger = document.getElementById('moreMenu');
+            let menu = document.getElementById('mobile_menu');
+            hamburger.addEventListener('click', () => {
+                menu.style.display = "block"
+            })
+        </script>
+    </body>
+</html>
